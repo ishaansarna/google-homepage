@@ -1,10 +1,10 @@
 body {
-    padding: 9px;
+  padding: 9px;
 }
 
 .topnav {
-    overflow: hidden;
-    float: right;
+  overflow: hidden;
+  float: right;
   }
   
   /* Style the links inside the navigation bar */
@@ -18,5 +18,27 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-      color: #333;
+    color: #333;
   }
+
+#main {
+  height: fit-content;
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+#google-logo {
+  width: 272px;
+  margin: 0 auto;
+}
+
+#search-bar-container {
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 42px;
+  width: 550px;
+  display: flex;
+}
