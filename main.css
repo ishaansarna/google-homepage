@@ -42,8 +42,11 @@ body {
     width: 550px;
     display: flex;
   }
+  .search-bar-container:hover {
+    box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+  }
     
-    .mag-glass-logo-container {
+    .logo-container {
       height: inherit;
       width: 35px;
       position: relative;
@@ -51,8 +54,24 @@ body {
       align-items: center;
     }
 
-      .mag-glass-logo {
-        color: #9AA0A6;
-        margin-left: 8px;
-        filter: invert(73%) sepia(12%) saturate(159%) hue-rotate(169deg) brightness(85%) contrast(93%);
+    .search-query {
+      height: inherit;
+      width: 480px;
+    }
+
+      .search-input {
+        margin-top: 2.5px;
+        height: 26px;
+        width: 460px;
+        border: none;
       }
+
+      input:focus, textarea:focus, select:focus{
+        outline: none;
+      }
+
+    .mag-glass-logo {
+      margin-left: 8px;
+    }
+
+    
